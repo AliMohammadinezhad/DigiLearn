@@ -11,7 +11,7 @@ using Common.Application.SecurityUtil;
 
 namespace BlogModule.Services;
 
-class BlogService : IBlogService
+public class BlogService : IBlogService
 {
     private readonly ICategoryRepository _categoryRepository;
     private readonly IPostRepository _postRepository;
