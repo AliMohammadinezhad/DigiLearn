@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Infrastructure", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogModule.Unit.Test", "src\Modules\Blog\BlogModule.Unit.Test\BlogModule.Unit.Test.csproj", "{2EA0D392-D0C8-4BA8-AEAB-E632DBF0A0AB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ticket", "Ticket", "{649CBDAA-6BF7-4283-8B96-D7AA218B146A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketModule", "src\Modules\Ticket\TicketModule\TicketModule.csproj", "{675D21D0-AF03-4F47-B1DC-8C7F814E23AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,10 @@ Global
 		{2EA0D392-D0C8-4BA8-AEAB-E632DBF0A0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA0D392-D0C8-4BA8-AEAB-E632DBF0A0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EA0D392-D0C8-4BA8-AEAB-E632DBF0A0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675D21D0-AF03-4F47-B1DC-8C7F814E23AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675D21D0-AF03-4F47-B1DC-8C7F814E23AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675D21D0-AF03-4F47-B1DC-8C7F814E23AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675D21D0-AF03-4F47-B1DC-8C7F814E23AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,8 @@ Global
 		{40941DEC-3AFC-4759-B6AF-43F11B43D2CF} = {68650258-1F12-4170-8122-AB8DE3DEA38B}
 		{B66EFBA2-0009-4DD3-BFB0-F2111D0176CD} = {68650258-1F12-4170-8122-AB8DE3DEA38B}
 		{2EA0D392-D0C8-4BA8-AEAB-E632DBF0A0AB} = {23015A31-2D75-4DE0-B371-79C8BEE425AE}
+		{649CBDAA-6BF7-4283-8B96-D7AA218B146A} = {E33FE5D0-6BBA-4DCC-A2F8-49810430B1C2}
+		{675D21D0-AF03-4F47-B1DC-8C7F814E23AF} = {649CBDAA-6BF7-4283-8B96-D7AA218B146A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3064DB26-A961-414D-87F6-1C6199AFDA6F}
